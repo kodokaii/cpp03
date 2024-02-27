@@ -6,7 +6,7 @@
 /*   By: nlaerema <nlaerema@student.42lehavre.fr>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/05 10:58:17 by nlaerema          #+#    #+#             */
-/*   Updated: 2024/02/27 16:33:53 by nlaerema         ###   ########.fr       */
+/*   Updated: 2024/02/27 17:52:12 by nlaerema         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ class DiamondTrap: public ScavTrap, public FragTrap
 				DiamondTrap(DiamondTrap const &diamondTrap);
 				~DiamondTrap(void);
 	using		ScavTrap::attack;
-	void		announce(void);
+	void		whoAmI(void);
 	DiamondTrap	&operator=(DiamondTrap const &diamondTrap);
 };
 

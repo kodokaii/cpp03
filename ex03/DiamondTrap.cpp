@@ -6,7 +6,7 @@
 /*   By: nlaerema <nlaerema@student.42lehavre.fr>	+#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/05 10:58:17 by nlaerema          #+#    #+#             */
-/*   Updated: 2024/02/27 16:39:18 by nlaerema         ###   ########.fr       */
+/*   Updated: 2024/02/27 17:51:51 by nlaerema         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ DiamondTrap::~DiamondTrap(void)
 	std::cout << "DiamondTrap Destructor called" << std::endl;
 }
 
-void		DiamondTrap::announce(void)
+void		DiamondTrap::whoAmI(void)
 {
 	std::cout << "My name is: " << this->name
 		<< ", My clap name is " << this->ClapTrap::name << std::endl;

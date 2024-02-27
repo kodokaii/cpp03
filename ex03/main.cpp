@@ -6,7 +6,7 @@
 /*   By: nlaerema <nlaerema@student.42lehavre.fr>	+#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/05 10:58:17 by nlaerema          #+#    #+#             */
-/*   Updated: 2024/02/27 16:46:48 by nlaerema         ###   ########.fr       */
+/*   Updated: 2024/02/27 17:52:30 by nlaerema         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,8 @@ int	main(void)
 	int			i(0);
 
 	std::cout << std::endl;
-	fizz.announce();
-	buzz.announce();
+	fizz.whoAmI();
+	buzz.whoAmI();
 	std::cout << std::endl;
 	fizz.attack("Buzz");
 	buzz.takeDamage(30);
