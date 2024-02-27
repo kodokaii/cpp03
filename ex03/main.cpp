@@ -6,7 +6,7 @@
 /*   By: nlaerema <nlaerema@student.42lehavre.fr>	+#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/05 10:58:17 by nlaerema          #+#    #+#             */
-/*   Updated: 2024/02/27 16:41:23 by nlaerema         ###   ########.fr       */
+/*   Updated: 2024/02/27 16:46:48 by nlaerema         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,6 +26,7 @@ int	main(void)
 	buzz.takeDamage(30);
 	buzz.beRepaired(42);
 	fizz.highFivesGuys();
+	buzz.guardGate();
 	std::cout << std::endl;
 	std::cout << "A METEOR CRASHES !!" << std::endl;
 	fizz.takeDamage(100);
